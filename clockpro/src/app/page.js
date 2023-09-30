@@ -1,5 +1,5 @@
 
-import { Box, Button, Container, Spacer, Stack, Text, Center } from '@chakra-ui/react'
+import { Box, Button, Container, Spacer, Stack, VStack, Text, Center } from '@chakra-ui/react'
 
 export default function Home() {
   return (
@@ -27,15 +27,10 @@ export default function Home() {
           </Container>
         </Stack>
         <Center>
-        <Box width="350px" boxShadow="2xl" bg="white" borderRadius="10px" borderColor="white" border="2px" py="1rem">
-          <Center>
-            <Text color="whatsapp.700" fontSize="32px">Session</Text>
-            <Text fontSize="45px" color="whatsapp.700">25:00</Text>
-          </Center>
-          
+        <Box textAlign="center" width="350px" heigh="300px" boxShadow="2xl" bg="white" borderRadius="10px" borderColor="white" border="2px" >
+              <Text fontSize="45px" color="whatsapp.700">25:00</Text>
         </Box>
         </Center>
-        
       </Box>
       </Center> 
       
